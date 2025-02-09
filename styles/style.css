@@ -1,0 +1,47 @@
+:root {
+    --branco-principal: #ffffff;
+    --cinza-segundario: #c0c0c0;
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #00030c;
+}
+
+/* Estilos padrão para desktops */
+body {
+    font-size: 18px;
+    background-color: var(--cor-de-fundo);
+    color: #ffffff;
+    
+}
+
+/* Telas grandes como Smart TVs (acima de 1200px) */
+@media (min-width: 1200px) {
+    body {
+        font-size: 22px;
+        background-color: var(--cor-de-fundo);
+        
+    }
+}
+
+/* Tablets (telas entre 768px e 1024px) */
+@media (max-width: 1024px) {
+    body {
+        font-size: 16px;
+        background-color: var(--cor-de-fundo);
+    }
+}
+
+/* Celulares em modo paisagem (telas entre 480px e 767px) */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+        background-color: var(--cor-de-fundo);
+    }
+}
+
+/* Celulares menores (telas até 479px) */
+@media (max-width: 479px) {
+    body {
+        font-size: 12px;
+        background-color: var(--cor-de-fundo);
+    }
+}
