@@ -43,6 +43,10 @@ body {
     margin-bottom: 1em;
 }
 
+.container__botao:hover {
+    background-color: rgb(255, 0, 55); /* cor ao passar o mouse*/
+}
+
 .botao_secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal)
@@ -93,4 +97,69 @@ body {
 
 .container__descricao {
     padding: 2em;
+}
+
+.dispositivos {
+    text-align: center; /* deixar o texto centralizado*/
+    justify-content: center; /* deixar o item centralizado H2*/
+    margin: 5em 0;
+    
+}
+
+.dispositivos__h2 {
+    margin-bottom: 50px; /* margem de baixo */
+    font-size: 38px; /* tamanho da fonte */
+}
+
+.dispositivos__img {
+    display: flex;
+    justify-content: center;
+    
+}
+.dispositivos__lista {
+    list-style-type: none; /* REMOVER a bolinha da °lista */
+}
+.lista__itens {
+    color: var(--branco-principal);
+}
+.rodape {
+    text-align: center;
+    justify-content: center;
+    
+}
+.rodape__logo {
+    margin: 5em 0;
+}
+.rodape__lista {
+    display: flex;
+    gap: 20px;
+    /* Espaçamento entre os itens */
+    justify-content: center;
+    /* Centraliza os itens */
+    padding: 20px;
+    background-color: #000000;
+    /* Cor de fundo opcional */
+    list-style-type: none;
+        
+}
+.rodape__lista a {
+    text-decoration: none;
+    color: #ffffff;
+    /* Cor azul padrão */
+    font-weight: bold;
+    transition: color 0.3s;
+    
+    
+}
+
+.rodape__lista a:hover {
+    color: #167BF7;
+}
+
+
+.lista__links {
+    color: var(--branco-principal);
+}
+.rodape__paragrafo {
+    
 }
